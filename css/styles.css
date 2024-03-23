@@ -1,0 +1,28 @@
+body {
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.site-title-header {
+    color: white;
+    animation: spin 10s infinite linear;
+    margin-top: 100px;
+}
+
+.main-text {
+    color: white;
+}
+
+.second-text {
+    color: palegoldenrod;
+    font-weight: bold;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
