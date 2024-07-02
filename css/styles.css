@@ -1,12 +1,19 @@
 body {
     background-color: dodgerblue;
     text-align: center;
+    color: white;
 }
 
 .site-title-header {
     color: white;
+}
+
+.main-img {
+    width: 60%;
+    max-width: 300px;
+    border: 10px solid white;
+    border-radius: 50%;
     animation: spin 10s infinite linear;
-    margin-top: 100px;
 }
 
 .main-text {
@@ -16,6 +23,28 @@ body {
 .second-text {
     color: palegoldenrod;
     font-weight: bold;
+}
+
+.family-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.family-card {
+    width: 110px;
+    margin: 5px;
+}
+
+.family-card > img {
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    animation: spin 10s infinite linear;
+}
+
+.family-card > p {
+    margin: 0;
 }
 
 @keyframes spin {
